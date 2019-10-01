@@ -11,46 +11,67 @@
         <tr>
             <th>
                 <form method="post" asp-action="Index">
-                    <div class="table table-bordered table-hover table-light shadow-sm">
-                        <div class="row">
-                            <div class="col-5">
-                                <img src="Images/logot.png" width="100%" />
-                            </div>
-                            <div class="col-2 align-content-center align-self-center">
-                                <label>Select date</label>
-                            </div>
-                            <div class="col-3 align-content-center align-self-center">
-                                <input type="date" id="date" name="date" class="form-control" />
-                            </div>
-                            <div class="col-2 align-content-center align-self-center">
-                                <input type="submit" class="btn btn-info form-control" value="Filter" />
-                            </div>
-                        </div>
-                    </div>
+                    @*<div class="table table-bordered table-hover table-light shadow-sm">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Images/logot.png" width="100%" />
+                </div>
+                <div class="col-2 align-content-center align-self-center">
+                    <label>Select date</label>
+                </div>
+                <div class="col-3 align-content-center align-self-center">
+                    <input type="date" id="date" name="date" class="form-control" />
+                </div>
+                <div class="col-2 align-content-center align-self-center">
+                    <input type="submit" class="btn btn-info form-control" value="Filter" />
+                </div>
+            </div>
+        </div>*@
+                    <img src="Images/logot.png" width="100%" />
+                    <label>Select date</label>
+                    <input type="date" id="date" name="date" class="form-control" />
+                    <input type="submit" class="btn btn-info form-control" value="Filter" /><br /><br />
                 </form>
             </th>
         </tr>
         @foreach (var item in Model)
         {
-            <tr class="shadow p-3 mb-5 bg-white rounded">
+            <tr class="shadow p-3 mb-5 bg-white rounded" style="background-color: aqua">
                 <td>
-                    <div class="table table-bordered table-hover table-light">
-                        <div class="form-group row">
-                            <div class="col-2 "><label asp-for="@item.FileName" class="col-form-label font-weight-bolder"></label></div>
-                            <div class="col-8 align-content-lg-start"><label class="form-control">@item.FileName</label></div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-2 "><label asp-for="@item.InsertDate" class="col-form-label font-weight-bolder"></label></div>
-                            <div class="col-8 align-content-lg-start"><label class="form-control">@item.InsertDate</label></div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-2 "><label asp-for="@item.Status" class="col-form-label font-weight-bolder"></label></div>
-                            <div class="col-8 align-content-lg-start"><input asp-for="@item.Status" class="form-control" disabled /></div>
-                        </div>
-                    </div>
+                    @*<div class="table table-bordered table-hover table-light">
+                            <div class="form-group row">
+                                <div class="col-2 "><label asp-for="@item.FileName" class="col-form-label font-weight-bolder"></label></div>
+                                <div class="col-8 align-content-lg-start"><label class="form-control">@item.FileName</label></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-2 "><label asp-for="@item.InsertDate" class="col-form-label font-weight-bolder"></label></div>
+                                <div class="col-8 align-content-lg-start"><label class="form-control">@item.InsertDate</label></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-2 "><label asp-for="@item.Status" class="col-form-label font-weight-bolder"></label></div>
+                                <div class="col-8 align-content-lg-start"><input asp-for="@item.Status" class="form-control" disabled /></div>
+                            </div>
+                        </div>*@
+                    <label asp-for="@item.FileName" class="col-form-label font-weight-bolder"></label>
+                </td>
+                <td>
+                    <label asp-for="@item.InsertDate" class="col-form-label font-weight-bolder"></label>
+                </td>
+                <td>
+                    <label asp-for="@item.Status" class="col-form-label font-weight-bolder"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="form-control">@item.FileName.Replace(" ", string.Empty)</label>
+                </td>
+                <td>
+                    <label class="form-control">@item.InsertDate.ToString("dd/MM/yyyy")</label>
+                </td>
+                <td>
+                    <input asp-for="@item.Status" class="form-control" disabled />
                 </td>
             </tr>
         }
-
     </table>
 </div>
