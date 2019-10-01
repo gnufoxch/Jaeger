@@ -16,3 +16,12 @@ D:\xmlDocuments\ProjectJaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.
 D:\xmlDocuments\ProjectJaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.AssemblyInfo.cs
 D:\xmlDocuments\ProjectJaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.dll
 D:\xmlDocuments\ProjectJaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.pdb
+I:\Jaeger\Jaeger\Order.Model\bin\Debug\netstandard2.0\Order.Model.deps.json
+I:\Jaeger\Jaeger\Order.Model\bin\Debug\netstandard2.0\Order.Model.dll
+I:\Jaeger\Jaeger\Order.Model\bin\Debug\netstandard2.0\Order.Model.pdb
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.csprojAssemblyReference.cache
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.csproj.CoreCompileInputs.cache
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.AssemblyInfoInputs.cache
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.AssemblyInfo.cs
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.dll
+I:\Jaeger\Jaeger\Order.Model\obj\Debug\netstandard2.0\Order.Model.pdb

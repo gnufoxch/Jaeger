@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29123.88
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderGenerator", "ProjectJaeger\OrderGenerator.csproj", "{0347EF22-1B21-4CE3-A00D-60EF5EF245A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderGenerator", "ProjectJaeger\OrderGenerator.csproj", "{0347EF22-1B21-4CE3-A00D-60EF5EF245A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Model", "Order.Model\Order.Model.csproj", "{29285AF8-B4B3-4856-994D-AA33EB930D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order.Model", "Order.Model\Order.Model.csproj", "{29285AF8-B4B3-4856-994D-AA33EB930D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{291090E4-4243-447E-8E86-7F01CD9A77F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{291090E4-4243-447E-8E86-7F01CD9A77F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderConsumer", "OrderConsumer\OrderConsumer.csproj", "{8ACD0063-036C-4FDE-A984-104BF6000E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderConsumer", "OrderConsumer\OrderConsumer.csproj", "{8ACD0063-036C-4FDE-A984-104BF6000E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{25FF3897-D1EE-4881-BAE2-22A2D2051D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{25FF3897-D1EE-4881-BAE2-22A2D2051D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{87F17CCB-D0AC-4AF3-9B4C-DC5FACE351C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{87F17CCB-D0AC-4AF3-9B4C-DC5FACE351C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DAL", "3. DAL", "{C57CEABC-3507-400D-996D-BAF5448A170C}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{9F47D789-C37A-4441-8C41-D5BDCDF946A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderViewer", "OrderViewer\OrderViewer.csproj", "{67A73D01-95EC-4964-960F-AE72F74973B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Viewer", "Order.Viewer\Order.Viewer.csproj", "{9DB14914-499A-489D-9569-0F40E64D4745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{67A73D01-95EC-4964-960F-AE72F74973B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A73D01-95EC-4964-960F-AE72F74973B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A73D01-95EC-4964-960F-AE72F74973B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB14914-499A-489D-9569-0F40E64D4745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB14914-499A-489D-9569-0F40E64D4745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB14914-499A-489D-9569-0F40E64D4745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB14914-499A-489D-9569-0F40E64D4745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{25FF3897-D1EE-4881-BAE2-22A2D2051D13} = {C57CEABC-3507-400D-996D-BAF5448A170C}
 		{87F17CCB-D0AC-4AF3-9B4C-DC5FACE351C3} = {BB59E884-7C35-4A04-93F7-76E2D16E220C}
 		{67A73D01-95EC-4964-960F-AE72F74973B5} = {9F47D789-C37A-4441-8C41-D5BDCDF946A2}
+		{9DB14914-499A-489D-9569-0F40E64D4745} = {9F47D789-C37A-4441-8C41-D5BDCDF946A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E120F60-1199-4FCF-904C-0F3D8E2CB8C9}

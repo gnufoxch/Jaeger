@@ -1,0 +1,56 @@
+﻿@using System.Linq
+@using Microsoft.CodeAnalysis
+@model List<Order.Model.OrderInfo>
+@{
+    ViewData["Title"] = "Order Viewer Page";
+}
+
+<div class="text-center">
+    <p>Learn about Jaeger automation building Web apps with ASP.NET Core</>.</p>
+    <table width="100%">
+        <tr>
+            <th>
+                <form method="post" asp-action="Index">
+                    <div class="table table-bordered table-hover table-light shadow-sm">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="Images/logot.png" width="100%" />
+                            </div>
+                            <div class="col-2 align-content-center align-self-center">
+                                <label>Select date</label>
+                            </div>
+                            <div class="col-3 align-content-center align-self-center">
+                                <input type="date" id="date" name="date" class="form-control" />
+                            </div>
+                            <div class="col-2 align-content-center align-self-center">
+                                <input type="submit" class="btn btn-info form-control" value="Filter" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr class="shadow p-3 mb-5 bg-white rounded">
+                <td>
+                    <div class="table table-bordered table-hover table-light">
+                        <div class="form-group row">
+                            <div class="col-2 "><label asp-for="@item.FileName" class="col-form-label font-weight-bolder"></label></div>
+                            <div class="col-8 align-content-lg-start"><label class="form-control">@item.FileName</label></div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2 "><label asp-for="@item.InsertDate" class="col-form-label font-weight-bolder"></label></div>
+                            <div class="col-8 align-content-lg-start"><label class="form-control">@item.InsertDate</label></div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2 "><label asp-for="@item.Status" class="col-form-label font-weight-bolder"></label></div>
+                            <div class="col-8 align-content-lg-start"><input asp-for="@item.Status" class="form-control" disabled /></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

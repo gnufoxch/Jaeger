@@ -22,3 +22,15 @@ D:\xmlDocuments\ProjectJaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAcc
 D:\xmlDocuments\ProjectJaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 D:\xmlDocuments\ProjectJaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 D:\xmlDocuments\ProjectJaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+I:\Jaeger\Jaeger\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+I:\Jaeger\Jaeger\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+I:\Jaeger\Jaeger\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+I:\Jaeger\Jaeger\DataAccess\bin\Debug\netstandard2.0\Order.Model.dll
+I:\Jaeger\Jaeger\DataAccess\bin\Debug\netstandard2.0\Order.Model.pdb
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+I:\Jaeger\Jaeger\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

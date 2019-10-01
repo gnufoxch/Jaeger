@@ -26,3 +26,17 @@ D:\xmlDocuments\ProjectJaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.
 D:\xmlDocuments\ProjectJaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 D:\xmlDocuments\ProjectJaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.dll
 D:\xmlDocuments\ProjectJaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.pdb
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\Business.deps.json
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\Business.dll
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\Business.pdb
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\DataAccess.dll
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\Order.Model.dll
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+I:\Jaeger\Jaeger\Business\bin\Debug\netstandard2.0\Order.Model.pdb
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.dll
+I:\Jaeger\Jaeger\Business\obj\Debug\netstandard2.0\Business.pdb
